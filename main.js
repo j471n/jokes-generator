@@ -12,7 +12,7 @@ const color = ["lightgreen", "lightblue", "gray", "lightgrey", "skyblue", "wheat
 
 /* Generate Buttton click event */
 button.addEventListener('click', () => {
-	/* Setting Joke Color to Black*/*/
+	/* Setting Joke Color to Black*/
     joke.style.color = "black";
 
 	/* Requesting for Joke*/
