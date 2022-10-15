@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Joke</title>
-    <link rel="icon" href="https://i.pinimg.com/originals/fd/b3/dd/fdb3dd6765fb2cd8d640cee8fd4704d6.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="icon"
+      href="https://i.pinimg.com/originals/fd/b3/dd/fdb3dd6765fb2cd8d640cee8fd4704d6.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Joke Generator</h1>
-    <button id="button" type="button" class="button">Generate</button>
-    <button id="reset" type="button" class="button">
-        Reset</button>
+    <button id="generate" type="button" class="button">Generate</button>
+    <button id="reset" type="button" class="button">Reset</button>
     <h5 id="joke">Click Generate Button</h5>
-    <h4 id="delivery">Deleve</h4>
-    <script src="main.js"></script>
-</body>
+    <h4 id="delivery"></h4>
 
+    <button id="copy_btn"><img src="copy.svg" alt="" /> Copy</button>
+    <script src="main.js"></script>
+  </body>
 </html>
